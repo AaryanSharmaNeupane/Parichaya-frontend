@@ -14,7 +14,7 @@ import '../models/db_models/document_image_model.dart';
 import '../models/share_link_model.dart';
 import '../utils/server_url.dart';
 
-const baseUrl = baseServerUrl;
+const baseUrl = baseLocalUrl;
 
 class ShareLinks with ChangeNotifier {
   final List<ShareLink> _items = [];
